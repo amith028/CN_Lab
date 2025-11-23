@@ -1,10 +1,4 @@
 def leaky_bucket(input_packets, bucket_size, output_rate):
-    """
-    Simulates the Leaky Bucket algorithm.
-    input_packets : list of integers (packets entering per second)
-    bucket_size   : maximum capacity of the bucket
-    output_rate   : packets that can be sent per second
-    """
 
     n = len(input_packets)
     print("\n--- Leaky Bucket Simulation ---\n")
